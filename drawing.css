@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    
+}
+canvas{
+    
+    border: 2px solid rebeccapurple;
+    
+}
+.toolbox{
+    background-color: purple;
+    width: 300px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+    
+    
+}
+.toolbox > *{
+    font-size: 1rem;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: none;
+    width: 50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+
+}
+
